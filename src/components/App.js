@@ -8,16 +8,15 @@ import Works from './Works';
 import Work from './Work';
 import Contact from './Contact';
 import Footer from './Footer';
-import WorkContents from '../contents';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Route exact path="/" component={Home} />
       <Route path="/About" component={About} />
       <Route path="/Works" component={Works} />
-      <Route path="/Work/:id" component={Work} workContent={WorkContents[0]} />
+      <Route path="/Work/:id" component={Work} />
       <Route path="/Contact" component={Contact} />
       <Footer />
     </BrowserRouter>

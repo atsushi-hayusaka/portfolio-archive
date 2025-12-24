@@ -11,6 +11,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "sass": "^1.38.0",
+    "swiper": "^6.8.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -37,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://atsushi-hayusaka.github.io/portfolio-archive"
+ "homepage": "https://atsushi-hayusaka.github.io/portfolio-archive"
 }
