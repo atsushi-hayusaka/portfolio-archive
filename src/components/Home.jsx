@@ -10,6 +10,17 @@ import 'swiper/components/pagination/pagination.scss';
 
 
 const Home = () => {
+  const fetchContents = async () => {
+    const res = await fetch("contents.json", {
+      method: "GET",
+    });
+    console.log(res)
+    const contents = await res.json();
+  } 
+
+  
+
+  fetchContents()
   
   return (
     <>
@@ -36,10 +47,10 @@ const Home = () => {
         <div className="about__texts_area">
           <h2 className="section__title about__title">About</h2>
           <p className="about__description  about__description_mt">
-          北海道出身のおしゃべり好きな24歳。<br/>
+          北海道出身の24歳。<br/>
           自転車にテントと寝袋を詰め込み2ヶ月ほど出掛けるなど、旅好きな一面を持つ。<br/>
           2020年12月からプログラミングの独学を始め、面白さを知り、のめり込んでいく。<br/>
-          現在はクリエイターシェアハウスに住み、フリーランスとして活動しながら、自分の技術を磨いている。
+          現在はシェアハウスに住みながら、フリーランスとして活動しながら、自分の技術を磨いている。
           </p>
           <button className="button about__button_position"><Link onClick={() => {window.scrollTo(0, 0)}} className="button__link" to="/about"><span>View more</span></Link><div className="wave"></div></button>
         </div>

@@ -62,12 +62,19 @@ const workContents = [
       'Web制作会社さんからホームページ1ページのリニューアルのお仕事を頂き、行いました。gitを使ってバージョン管理をし、IE対応であったのでVirtualBoxを用いて、Windowsの仮想環境を構築して作業を進めて行きました。\n納期が短いお仕事でしたがなんとか納期内に完成することができました。',
     img1: require('../images/noimage.jpg').default,
     img2: require('../images/noimage.jpg').default,
-    img3: require('../images/noimage.jpg').default,
-    url: 'http://daytora3rd.atsushihayasaka.com/',
+  },
+  {
+    id: 7,
+    title: '大規模サイトの1ページ作成(非公開)',
+    tech: 'HTML/CSS/JavaScript/git',
+    description:
+      'Web制作会社さんからホームページ1ページのリニューアルのお仕事を頂き、行いました。gitを使ってバージョン管理をし、IE対応であったのでVirtualBoxを用いて、Windowsの仮想環境を構築して作業を進めて行きました。\n納期が短いお仕事でしたがなんとか納期内に完成することができました。',
+    img1: require('../images/noimage.jpg').default,
+    img2: require('../images/noimage.jpg').default,
   },
 
   {
-    id: 7,
+    id: 8,
     title: '海外向け仮想通貨サイト',
     tech: 'HTML/CSS/JavaScript/PHP/WordPress',
     description:
@@ -75,10 +82,10 @@ const workContents = [
     img1: require('../images/work_connect_hearts.jpg').default,
     img2: require('../images/works_thumbnail_connect_hearts.png').default,
     img3: require('../images/all-site-image_connect-heart.png').default,
-    url: 'https://connect-hearts.org/',
+    url: 'https://connecthearts.atsushihayasaka.com/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'ポートフォリオサイト',
     tech: 'HTML/CSS/JavaScript/React',
     description:

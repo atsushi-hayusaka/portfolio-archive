@@ -33,8 +33,8 @@ const Work = props => {
         </div>
         <div className="work__site-view work__site-view_margin">
           {
-            currentWork.img3 === true ? <img src={currentWork.img3} alt="作品の全体像"/>
-                                      :<p className="unpublished-work__image">非公開実績のため写真を公開することができません。</p>
+            currentWork.img3 ? <img src={currentWork.img3} alt="作品の全体像"/>
+                            :<p className="unpublished-work__image">非公開実績のため写真を公開することができません。</p>
           }
           
         </div>
