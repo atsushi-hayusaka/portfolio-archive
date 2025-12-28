@@ -55,9 +55,9 @@ const About = () => {
             <dl className="chronology__list chronology_flex chronology__list_mt">
               <dt className="chronology__year">2010.4</dt>
               <dd className="chronology__description">
-                <span className="sp_dd_title">本来行くはずであった中学校と違う中学校に入学。</span><br/>
+                <span className="sp_dd_title">隣町の中学校に入学。</span><br/>
                 元々行く予定であった中学校にサッカー部がないことが直前に判明し、隣町の中学校に入学。<br/>
-                初めは人間関係の構築に悩んだが、コミュニケーション能力が飛躍的に向上。
+                全員が知らない人で人間関係の構築に悩んだが、コミュニケーション能力が飛躍的に向上。
               </dd>
             </dl>
 
@@ -86,7 +86,7 @@ const About = () => {
             </dl>       
             <dl className="chronology__list chronology_flex chronology__list_mt">
               <dt className="chronology__year">2020.4</dt>
-              <dd className="chronology__description"><span className="sp_dd_title">就職するが、自分のやりたいことが分からず、5月に退職する。</span></dd>
+              <dd className="chronology__description"><span className="sp_dd_title">就職するが、自分のやりたいことが分からず、5月に退職する。<br/>（当時は未熟で、考えが甘かったと今は反省しています...）</span></dd>
             </dl>
           </div>
           
@@ -154,7 +154,8 @@ const About = () => {
 
               <div className="personality__content personality_flex wow fadeInUp">
                 <div className="personality__image-area">
-                  <img src={personality} alt="" className="personality__image"/>
+                  {/* <img src={personality} alt="" className="personality__image"/> */}
+                  <img src="../../images/about-images.jpeg" alt="" className="personality__image"/>
                 </div>
                 <div className="personality__texts-area">
                   <h3 className="content__title">行動力</h3>

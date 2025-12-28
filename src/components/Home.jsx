@@ -48,9 +48,9 @@ const Home = () => {
           <h2 className="section__title about__title">About</h2>
           <p className="about__description  about__description_mt">
           北海道出身の24歳。<br/>
-          自転車にテントと寝袋を詰め込み2ヶ月ほど出掛けるなど、旅好きな一面を持つ。<br/>
-          2020年12月からプログラミングの独学を始め、面白さを知り、のめり込んでいく。<br/>
-          現在はシェアハウスに住みながら、フリーランスとして活動しながら、自分の技術を磨いている。
+          {/* 自転車にテントと寝袋を詰め込み2ヶ月ほど出掛けるなど、旅好きな一面を持つ。<br/> */}
+          2020年12月からプログラミングの勉強を始めました。<br/>
+          現在はシェアハウスに住みながら、日々勉強し技術を磨きながら、フリーランスとして活動しています。
           </p>
           <button className="button about__button_position"><Link onClick={() => {window.scrollTo(0, 0)}} className="button__link" to="/about"><span>View more</span></Link><div className="wave"></div></button>
         </div>
